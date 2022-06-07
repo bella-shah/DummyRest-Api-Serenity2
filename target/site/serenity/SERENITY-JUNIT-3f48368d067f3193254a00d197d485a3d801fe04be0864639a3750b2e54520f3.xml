@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.restapiexample.userinfo.EmployeeCURDTestWithSteps" skipped="0" tests="1" time="0.32" timestamp="2022-06-07T15:39:57.874+01:00[Europe/London]"><testcase classname="com.restapiexample.userinfo.EmployeeCURDTestWithSteps" name="Verify if the employee was added to the application employee_name = Brielle Williamson"><error message="baseURI cannot be null" type="java.lang.IllegalArgumentException">baseURI cannot be null</error><system-err>baseURI cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.&lt;init&gt;(RequestSpecificationImpl.groovy:132)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)&#13;
+io.restassured.RestAssured.given(RestAssured.java:711)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)&#13;
+com.restapiexample.employeeinfo.EmployeeSteps.getEmployeeInfoByEmployeeName(EmployeeSteps.java:33)&#13;
+com.restapiexample.userinfo.EmployeeCURDTestWithSteps.test002(EmployeeCURDTestWithSteps.java:39)&#13;
+</system-err></testcase></testsuite>
